@@ -1,0 +1,11 @@
+{% load static %}
+<h1>helllo</h1>
+
+
+<form method="POST">
+   <label for="note">note</label>
+   <input type="text" name="note" placeholder="add here">
+   {% csrf_token %}
+
+
+</form>
